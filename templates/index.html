@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        #search-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0074d9;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body> 
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <form method="POST" action="/" >
+            <input type="text" id="search-input" name="user_input" placeholder="Enter your text here">
+            <button id="search-icon" type="submit">&#128269</div>
+        {% if sentiment %}
+        <p>Sentiment: {{sentiment}} </p>
+        {% endif %}
+        </form>
+    </div>
+</body>
+</html>
