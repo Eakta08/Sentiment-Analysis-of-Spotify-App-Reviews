@@ -1,10 +1,12 @@
-![image](https://github.com/Eakta08/Sentiment-Analysis-of-Spotify-App-Reviews/assets/131867852/40174673-5369-4eb7-a0af-ace012f920a2)
+![image](https://github.com/Eakta08/Sentiment-Analysis-of-Spotify-App-Reviews/assets/131867852/5b59ef83-8666-4593-92ce-c6a2a3a17a84)
 
 # Sentiment-Analysis-of-Spotify-App-Reviews
-This is a Natural Language Project using VADER and ML model. The dataset consists of 61594 reviews and ratings and, performed sentiment anlaysis on it. A variety of ML models, including LR, SGD, DT, RF, XGBoost, and LGBM, are used to accomplish sentiment analysis using Bag of Words model. 
+This is a Natural Language Project using VADER, Textblob, AFINN, Transformers and ML model. The dataset consists of 61594 reviews and ratings and, performed sentiment anlaysis on it. A variety of ML models, including LR, SGD, DT, RF, XGBoost, and LGBM, are used to accomplish sentiment analysis using Bag of Words model. 
 
-Also a web app is created using Flask based on VADER model for sentiment analysis of reviews. Hope you enjoy it:).
+Also a web app is created using Flask based on AFINN model for sentiment analysis of reviews. 
 
-Here is the Google collab link of 'vader - pos , neu , neg' : https://colab.research.google.com/drive/1yhIxnwUsz1ZuAtas8sAA0QVSFUfGyBnH#scrollTo=PNIIcXJKEKX_
+**To run it, open command prompt or anaconda prompt :** python app.py (make sure you have entered the current directory where app.py is present using 'cd' command)
 
-Here is the Google collab link of 'ML_model - pos , neg' : https://colab.research.google.com/drive/1a0_s9BiBwraN5vAfc8AoVF7vgTT9egc-
+Here is the Google collab link of 'VADER, Textblob, AFINN, Transformers' : https://colab.research.google.com/drive/1yhIxnwUsz1ZuAtas8sAA0QVSFUfGyBnH?usp=sharing
+
+Here is the Google collab link of 'ML model' : https://colab.research.google.com/drive/1ALNOzicnGNl0Gp4wkmiegNbln_UkPeGj
