@@ -7,6 +7,6 @@ Also a web app is created using Flask based on AFINN model for sentiment analysi
 
 **To run it, open command prompt or anaconda prompt :** python app.py (make sure you have entered the current directory where app.py is present using 'cd' command)
 
-Here is the Google collab link of 'VADER, Textblob, AFINN, Transformers' : https://colab.research.google.com/drive/1yhIxnwUsz1ZuAtas8sAA0QVSFUfGyBnH?usp=sharing
+Here is the Google colab link of 'VADER, Textblob, AFINN, Transformers' : https://colab.research.google.com/drive/1yhIxnwUsz1ZuAtas8sAA0QVSFUfGyBnH?usp=sharing
 
-Here is the Google collab link of 'ML model' : https://colab.research.google.com/drive/1ALNOzicnGNl0Gp4wkmiegNbln_UkPeGj
+Here is the Google colab link of 'ML model' : https://colab.research.google.com/drive/1ALNOzicnGNl0Gp4wkmiegNbln_UkPeGj
